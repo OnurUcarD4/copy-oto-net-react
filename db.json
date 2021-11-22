@@ -1,0 +1,416 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "resim": "https://i.hizliresim.com/1p6eev0.jpg",
+      "aracismi": "Hyundai i20",
+      "aracmodeli": "i20 1.4MPU 100 JUMP 6AT",
+      "aracyili": "2020",
+      "aracyakit": "Benzin",
+      "aracvites": "Otomatik",
+      "arackm": "43.220",
+      "eskifiyat": "231.700",
+      "yenifiyat": "218.250"
+    },
+    {
+      "id": 2,
+      "resim": "https://i.hizliresim.com/kipnqad.jpg",
+      "aracismi": "Hyundai i20",
+      "aracmodeli": "i20 1.4MPU 100 JUMP 6AT",
+      "aracyili": "2020",
+      "aracyakit": "Benzin",
+      "aracvites": "Otomatik",
+      "arackm": "35.200",
+      "eskifiyat": "233.300",
+      "yenifiyat": "230.750"
+    },
+    {
+      "id": 3,
+      "resim": "https://i.hizliresim.com/dv8o7em.jpg",
+      "aracismi": "Renault CLIO",
+      "aracmodeli": "CLIO HB TOUCH 0.9 TCE 90",
+      "aracyili": "2020",
+      "aracyakit": "Benzin",
+      "aracvites": "Manuel",
+      "arackm": "52.310",
+      "eskifiyat": "174.000",
+      "yenifiyat": "172.300"
+    },
+    {
+      "id": 4,
+      "resim": "https://i.hizliresim.com/1p6eev0.jpg",
+      "aracismi": "Hyundai i20",
+      "aracmodeli": "i20 1.4MPU 100 JUMP 6AT",
+      "aracyili": "2020",
+      "aracyakit": "Benzin",
+      "aracvites": "Otomatik",
+      "arackm": "22.290",
+      "eskifiyat": "253.300",
+      "yenifiyat": "247.750"
+    },
+    {
+      "id": 5,
+      "resim": "https://i.hizliresim.com/jnlh7ji.jpg",
+      "aracismi": "Honda CIVIC",
+      "aracmodeli": "CIVIC SEDAN EXECUTIVE 1.6 (125) OV",
+      "aracyili": "2019",
+      "aracyakit": "Benzin",
+      "aracvites": "Otomatik",
+      "arackm": "52.290",
+      "eskifiyat": "308.000",
+      "yenifiyat": "305.000"
+    },
+    {
+      "id": 6,
+      "resim": "https://i.hizliresim.com/pegxnyo.jpg",
+      "aracismi": "Honda CIVIC",
+      "aracmodeli": "CIVIC SEDAN EXECUTIVE 1.6 (125) OV",
+      "aracyili": "2019",
+      "aracyakit": "Benzin",
+      "aracvites": "Otomatik",
+      "arackm": "43.285",
+      "eskifiyat": "310.000",
+      "yenifiyat": "306.900"
+    }
+  ],
+  "inf": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/key-holder.png",
+      "title": "85.000 Aracın",
+      "desc": "satışına aracılık ettik"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/car-number.png",
+      "title": "100.000 Araca",
+      "desc": "ekspertiz yaptık"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/user-number.png",
+      "title": "9.5 Milyon Kullanıcı",
+      "desc": "bizi tercih etti"
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/location-number.png",
+      "title": "71 Farklı İlde",
+      "desc": "satış gerçekleştirdik"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/img/u/cn/ad/1c/8a/otomag-7857-ad1c8abd-0855-4948-a6ba-83f0e70d2c3d_640x360.jpg",
+      "tarih": "14.11.2021",
+      "title": "Araç Kilometresinin Değiştirildiğini Nasıl Anlarım?",
+      "desc": "Araç kilometresi sorgulama yöntemi araç satın alınmadan önce kullanılan bir yöntemdir."
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/img/u/cn/82/a4/b2/otomag-7856-82a4b2bc-ae03-4589-bba7-57f1e02c76fe_640x360.jpg",
+      "tarih": "12.11.2021",
+      "title": "Araç Fiyatları Hangi Dönemlerde Düşer?",
+      "desc": "Ucuz araba modelleri bulmak için doğru zamanı beklemek gerekir. Örneğin aylara göre araç fiyatlarında değişiklikler görülmektedir."
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/img/u/cn/2b/19/eb/otomag-7855-2b19ebde-bfdb-4619-ad16-c23205d28bdb_640x360.jpg",
+      "tarih": "11.11.2021",
+      "title": "Yakıt Hesaplama",
+      "desc": "Araç sahipleri ya da satın almak isteyenler araç yakıt tüketimi konusunu merak etmektedir. Birkaç basit hesap ile bunu öğrenmek oldukça kolay."
+    }
+  ],
+  "nekadareder": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-1.png",
+      "title": "Araç Bilgilerinizi Girin",
+      "desc": "Satmak istediğiniz aracın bilgilerini girin."
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-2.png",
+      "title": "Ücretsiz Fiyat Teklifi Alın",
+      "desc": "Araç bilgilerinizi girdikten sonra ücretsiz fiyat teklifimizi alın."
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-3.png",
+      "title": "Ücretsiz Ekspertiz için Randevu Oluşturun",
+      "desc": "Ücretsiz ekspertiz randevusu ile aracınızı uzmanlarımız detaylı kontrol etsin."
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-4.png",
+      "title": "Aracınızı Hemen Satın Alalım",
+      "desc": "Ekspertiz muayenesinin ardından gerçekleşen satış ile, paranız aynı gün hesabınıza nakit olarak geçsin."
+    }
+  ],
+  "nedensatmaliyim": [
+    {
+      "id": 1,
+      "resim": "https://i.hizliresim.com/555jhbw.jpg",
+      "title": "Gerçek Değerinde Satış",
+      "desc": "Oto.fyt'a araç satışlarınız, geleneksel yollardaki gibi aylar sürmez. Birkaç tıklamayla araç satış sürecini hemen başlatabilirsiniz."
+    },
+    {
+      "id": 2,
+      "resim": "https://i.hizliresim.com/3nc923w.jpg",
+      "title": "Anında Nakit",
+      "desc": "Oto.fyt'a aracınızı sattığınızda paranız aynı gün hesabınıza geçer."
+    },
+    {
+      "id": 3,
+      "resim": "https://i.hizliresim.com/tlwr92d.jpg",
+      "title": "Ücretsiz Ekspertiz",
+      "desc": "Oto.fyt, deneyimli uzmanları ile aracınıza ücretsiz ekspertiz yapar."
+    },
+    {
+      "id": 4,
+      "resim": "https://i.hizliresim.com/b620hnh.jpg",
+      "title": "Zamandan Tasarruf",
+      "desc": "Geleneksel satışlarda aracınızın değerini düşüren pazarlık süreçleri Oto.fyt'ta yoktur. Aracınız Oto.fyt tarafından gerçek değerinde fiyatlanır."
+    },
+    {
+      "id": 5,
+      "resim": "https://i.hizliresim.com/9ingug7.jpg",
+      "title": "Kolay Süreç",
+      "desc": "Arabanızı acil satmak mı istiyorsunuz? Oto.fyt'ta satış işlemleri çok basittir. Birkaç tıklama ile satış süreci gerçekleştirilir."
+    },
+    {
+      "id": 6,
+      "resim": "https://i.hizliresim.com/rf6mbke.jpg",
+      "title": "Güvenilir Süreç",
+      "desc": "Oto.fyt'ta tanımadığınız kimselerin yarattığı bilinmezlik yoktur. Aracınızı Oto.fyt'a satarsınız."
+    }
+  ],
+  "sikcasorulansorular": [
+    {
+      "id": 1,
+      "title": "Oto.Fyt Hangi Araçları Alıyor?",
+      "desc": "<b>Aşağıdaki kriterlerin dışında kalan 2010 ve üzeri araçların ücretsiz ekspertiz değerlendirilmesi Oto.fyt tarafından yapılır ve uygun olması durumunda satın alma işlemi gerçekleştirilir.</b>",
+      "desc2": "Oto.Fyt kriter dışı nedenleri; <ul><li>2011 - 2020 modeller için kilometresi 175.000, 2005 - 2010 modeller için kilometresi 200.000'in üzerinde olan,</li><li>TRAMER kaydı 19.999 TL üzerinde olan,</li><li>TRAMER'inde sel/su/yıldırımdan dolayı hasarı bulunan,</li><li>Ağır hasar veya pert kaydı olan,</li><li>Tavanında boya/değişim, dolu izi olan ya da onarım gerektiren,</li><li>6 ve üzeri parça değişimi olan,</li><li>Şasi ya da podyede işlem olan,</li><li>Direklerde işlem olan,</li><li>Motor arıza ışığı yanan,</li><li>Bagaj havuzu işlemli ya da hasarlı olan,</li><li>Aracın tamamı folyo ile kaplanmış olan,</li><li>Airbag ışığı yanan veya airbagi değişmiş olan,</li><li>Modifiye edilmiş olan,</li><li>Muayene geçerlilik süresi 1 haftadan az olan,</li><li>Üzerinde herhangi bir kredi borcu olan araçlar kriter dışıdır.</li></ul>"
+    },
+    {
+      "id": 2,
+      "title": "Aracımı Oto.fyt üzerinden nasıl satabilirim?",
+      "desc": "Satmak istediğiniz aracınızın bilgilerini girmeniz bizim için yeterli. Bu bilgilerle kullandığımız güncel veri algoritmaları sayesinde aracınız için anında ücretsiz fiyat teklifi veriyoruz. Bu fiyat teklifi aracınız hasarsız olarak fiyatlandırılarak verilmektedir. Aracınıza verilen fiyatı kabul etmeniz durumunda, size en yakın ekspertiz noktamızdan randevunuzu oluşturun. Randevunuza geldiğinizde aracınızın kaporta ve mekanik ekspertizini ücretsiz olarak yapıyoruz. Sonrasında nihai teklifimizi sizinle paylaşalıp, aynı gün aracınızı satın alıyoruz. Aracınızın ekspertizinin yapılabilmesi için aracınızın yıkanmış ve temiz olması gerekmektedir.",
+      "desc2": "Satış işlemlerinin hemen tamamlanması için aracınızın muayenesinin yapılmış olması ve aracınız ile ilgili rehin, banka kredisi, vergi borcu ve/veya ödenmemiş trafik cezası olmamalıdır."
+    },
+    {
+      "id": 3,
+      "title": "Aracımı satmak istiyorum, ama bulamıyorum?",
+      "desc": "Aracınız Oto.fyt satın alma kriterlerine şimdilik uymuyor. Siz yine de aracınızın detaylarını bizle paylaşın, biz de çok yakında size çözüm bulmak için çalışmalara başlayalım.",
+      "desc2": ""
+    },
+    {
+      "id": 4,
+      "title": "Ekspertiz randevusu nasıl alırım?",
+      "desc": "Aracınıza Oto.fyt üzerinden ön fiyat teklifi verilen sayfada ekspertiz randevusu alabilirsiniz. Ekspertiz Randevusu Alın butonuna bastıktan sonra size yakın ekspertiz merkezimizi ve uygun tarihi seçerek rezervasyonunuzu oluşturabilirsiniz.",
+      "desc2": ""
+    },
+    {
+      "id": 5,
+      "title": "Ekspertiz için randevu almam gerekiyor mu?",
+      "desc": "Arabanızı satma sürecini hızlı ve etkin yürütebilmemiz için randevu almanız gerekmektedir.",
+      "desc2": ""
+    },
+    {
+      "id": 6,
+      "title": "Oto.fyt ekspertiz ekibi kimdir?",
+      "desc": "Oto.fyt ekspertiz ekibi, ikinci el araçları Oto.fyt kriterleri kapsamında değerlendirecek olan, özel eğitim ve denetim sürecinden geçen araç uzmanlarımızdır. Ekspertiz aşamasında aracın 101+ nokta kaporta boya ve mekanik ekspertiz değerlendirmelerini yaparak, aracınızın gerçek değerinin tespit edilmesi için Oto.fyt merkezimizle hızlıca verileri paylaşırlar. Bu veriler sonrasında aracınızı hem gerçek değerinde satmış olursunuz, hem de anında nakde çevirirsiniz.",
+      "desc2": ""
+    },
+    {
+      "id": 7,
+      "title": "Ekspertiz sırasında benim de olmam gerekiyor mu?",
+      "desc": "Amacımız aracınızın ekspertizini yaparken sizinle teklifimizi o anda paylaşıp satış işleminizi sonlandırmak olduğu için aracınızın başında olmanız önem taşıyor. Uzmanlarımız 30 – 45 dakika içerisinde hızlı bir şekilde hizmet vererek aracınızın detaylı ekspertizini tamamlayarak, sizinle nihai teklifi paylaşacaklardır.",
+      "desc2": ""
+    },
+    {
+      "id": 8,
+      "title": "Oto.fyt ekspertizi neyi kapsamaktadır?",
+      "desc": "Oto.fyt ekspertizi aracın kaporta değişen boya durumu, araca değer kaybı yaratabilecek araç içindeki ve dışındaki hataların tespiti, aracın anlaşılabilir mekanik problemlerinin tespiti yapılmaktadır.",
+      "desc2": ""
+    },
+    {
+      "id": 9,
+      "title": "İkinci el aracımı Oto.fyt'a satarken hangi belgeleri yanımda bulundurmalıyım?",
+      "desc": "Satış işlemleri sırasında yanınızda arabanızın ruhsatı ve ruhsat sahibinin ehliyet veya nüfus cüzdanı bulunmalıdır.",
+      "desc2": ""
+    },
+    {
+      "id": 10,
+      "title": "Aracımı satmak ne kadar sürer?",
+      "desc": "Ekspertiz randevusuna geldikten sonra aracınızın kaporta ve boya ekspertizi yapılır ve sizinle fiyat teklifi anında paylaşılır. Teklifi kabul etmeniz durumunda mekanik ve motor ekspertiz sürecine geçilir. Mekanik ve motor ekspertizinden sonra aracın durumuna göre araç satın alma teklifimiz değişebilir. Nihai teklifimizi kabul ettiğiniz takdirde aracın aynı gün noter satış işlemi tamamlanır.",
+      "desc2": ""
+    },
+    {
+      "id": 11,
+      "title": "Verdiğiniz teklifi onayladım, satışı ve ödemeyi nasıl yapıyorsunuz?",
+      "desc": "Arabanızın bedelini noter satışından önce banka yolu ile hesabınıza yolluyoruz.",
+      "desc2": ""
+    },
+    {
+      "id": 12,
+      "title": "Verdiğiniz teklif ne kadar geçerli?",
+      "desc": "Verdiğimiz teklif 1 gün geçerli. Eğer teklifimizi düşünmek isterseniz, aracınızı tekrar ekspertiz sürecinden geçirmemiz gerekecek.",
+      "desc2": ""
+    },
+    {
+      "id": 13,
+      "title": "Aracım için doğru fiyatı nasıl buluyorsunuz?",
+      "desc": "Oto.fyt geçtiğimiz 7 yılda 85.000 aracın araç satışına ve binlerce aracın da ilan sitesinde yayınlamasına aracılık etmiştir. Tecrübesini uzun zamandır üzerinde çalıştığı algoritma sayesinde düzenli güncellenen verilerle dinamik bir şekilde hesaplamaktadır.",
+      "desc2": ""
+    },
+    {
+      "id": 14,
+      "title": "Noter satış devir ücretleri kimin tarafından karşılanmaktadır?",
+      "desc": "Noter satış devir ücretleri aracı üstüne devir alan kişi tarafından ödenecektir. Sizin aracınızı Oto.fyt olarak biz satın aldığımız için noter satış ücreti bizim tarafımızdan karşılanacaktır.",
+      "desc2": ""
+    },
+    {
+      "id": 15,
+      "title": "Satıcı olarak aracım ile ilgili beyan etmem gereken noktalar nelerdir?",
+      "desc": "Aracınızın pert kaydının olması, KM oynanmış olması, üzerinde haciz durumunun bulunması, doğal afetlerde hasar görme durumu (sel vb.) ve aracın ağır hasarının olması özellikle beyan etmeniz gereken noktalardır.",
+      "desc2": ""
+    },
+    {
+      "id": 16,
+      "title": "Arabamın detaylarını girdim, bu aracı fiyatlayamıyoruz diyor. Ne yapmalıyım?",
+      "desc": "Bazı araçları ekspertizden geçirdikten sonra fiyatlandırıyoruz. Bizle irtibat bilgilerinizi paylaşırsanız, aracınız hakkında size geri dönüş yapalım.",
+      "desc2": ""
+    }
+  ],
+  "hikayeler": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/img/u/st/86/1c/9f/hikaye-738-861c9fa9-c783-4b1f-9449-c2ffa00e5e77_555x555.jpg",
+      "title": "Dilek Hanım'ın tercihi Oto.fyt!",
+      "desc": "Dilek Mengi",
+      "job": "Ev Hanımı"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/img/u/st/31/d8/c3/hikaye-727-31d8c370-d8ea-412d-b158-8308c132954f_555x555.jpg",
+      "title": "Ali Bey aracını Oto.fyt'a bir günde sattı!",
+      "desc": "Ali Kırkalı",
+      "job": "Öğrenci"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/img/u/st/30/b5/e1/hikaye-731-30b5e12f-3b23-4f01-ad44-c2905a9de5b1_555x555.jpg",
+      "title": "Şenol Bey aracını Oto.fyt'a bir günde sattı!",
+      "desc": "Şenol Soyuşen",
+      "job": "Müteahhit"
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/img/u/st/ba/09/a6/hikaye-717-ba09a66e-28d1-4029-b978-50b4078c7f76_555x555.jpg",
+      "title": "Şeriban Hanım'ın tercihi Oto.fyt!",
+      "desc": "Şeriban Katkay",
+      "job": "İnşaat Mühendisi"
+    },
+    {
+      "id": 5,
+      "resim": "https://cdn.oto.net/img/u/st/a7/3c/14/hikaye-724-a73c1400-9c81-48a4-8336-c3c0f993dfc5_555x555.jpg",
+      "title": "Araç satışında kurumsal ve profesyonel hizmet!",
+      "desc": "Fatih Korkmaz",
+      "job": "Tekniker"
+    },
+    {
+      "id": 6,
+      "resim": "https://cdn.oto.net/img/u/st/fb/3e/3b/hikaye-699-fb3e3b3c-0443-4351-9c44-a4ca16bf9cbb_555x555.jpg",
+      "title": "Aracını değiştirmek isteyen Beste Hanım Oto.fyt'ı tercih etti!",
+      "desc": "Beste Kadriye Ataman",
+      "job": "Öğrenci"
+    },
+    {
+      "id": 7,
+      "resim": "https://cdn.oto.net/img/u/st/e7/4c/78/hikaye-703-e74c785f-7f87-436f-a17e-97adb6517071_555x555.jpg",
+      "title": "Fikriye Hanım aracını Oto.fyt'a bir günde sattı!",
+      "desc": "Fikriye Koyuncu",
+      "job": "Özel Sektör Çalışanı"
+    },
+    {
+      "id": 8,
+      "resim": "https://cdn.oto.net/img/u/st/c3/92/f2/hikaye-716-c392f27a-8286-4859-9234-1ad175c889c2_555x555.jpg",
+      "title": "Cemal Bey'in tercihi Oto.fyt!",
+      "desc": "Cemal Öztürk",
+      "job": "Gayrimenkul Danışmanı"
+    },
+    {
+      "id": 9,
+      "resim": "https://cdn.oto.net/img/u/st/e1/d9/dd/hikaye-698-e1d9dd6b-d7c2-48c2-8638-f3ea5166be0d_555x555.jpg",
+      "title": "Meltem Hanım'ın tercihi Oto.fyt!",
+      "desc": "Meltem Atahan",
+      "job": "Yapı Denetim Teknikeri"
+    }
+  ],
+  "takasnasilcalisir": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-1.png",
+      "title": "Araç Bilgilerinizi Girin",
+      "desc": "Takas sayfamızda, satmak istediğiniz aracın bilgilerini girin."
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-2.png",
+      "title": "Takas Yapacağınız Aracı Seçin",
+      "desc": "Araç bilgilerinizi girdikten sonra ücretsiz fiyat teklifimizi alın."
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-3.png",
+      "title": "Ücretsiz Ekspertiz için Randevu Oluşturun",
+      "desc": "Satmak istediğiniz aracınızın nihai teklifi için ekspertiz randevusunu oluşturun."
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/assets-1637056571448/img/landing/landing-4.png",
+      "title": "Aracınızı Hemen Takas Edin",
+      "desc": "Oto.fyt'ın 2.000 TL'ye kadar desteğinden yararlanarak eski aracınızın takasını gerçekleştirin."
+    }
+  ],
+  "takasnedensatmaliyim": [
+    {
+      "id": 1,
+      "resim": "https://i.hizliresim.com/b620hnh.jpg",
+      "title": "Zamandan Tasarruf",
+      "desc": "Oto.fyt'a araç satışlarınız, geleneksel yollardaki gibi aylar sürmez. Birkaç tıklamayla araç satış sürecini hemen başlatabilir, yeni aracınıza hızlıca kavuşabilirsiniz."
+    },
+    {
+      "id": 2,
+      "resim": "https://i.hizliresim.com/3nc923w.jpg",
+      "title": "Anında Takas",
+      "desc": "Alacağınız ve satacağınız araç arasındaki fiyat farkını anında görün, hemen ekspertiz randevusu alıp, aracınızı zahmetsiz bir şekilde takas edin."
+    },
+    {
+      "id": 3,
+      "resim": "https://i.hizliresim.com/tlwr92d.jpg",
+      "title": "Ücretsiz Ekspertiz",
+      "desc": "Ücretsiz ekspertiz randevusu ile aracınızı uzmanlarımız tepeden tırnağa kontrol eder ve gerçek değerini belirleyebilmemize yardımcı olurlar."
+    },
+    {
+      "id": 4,
+      "resim": "https://i.hizliresim.com/b620hnh.jpg",
+      "title": "Gerçek Değerinde Satış",
+      "desc": "Geleneksel satışlarda aracınızın değerini düşüren pazarlık süreçleri Oto.fyt'ta yoktur. Aracınız Oto.fyt tarafından gerçek değerinde fiyatlanır."
+    },
+    {
+      "id": 5,
+      "resim": "https://i.hizliresim.com/9ingug7.jpg",
+      "title": "Kolay Süreç",
+      "desc": "Arabanızı acil satmak mı istiyorsunuz? Oto.fyt'ta satış işlemleri çok basittir. Birkaç tıklama ile satış süreci gerçekleştirilir."
+    },
+    {
+      "id": 6,
+      "resim": "https://i.hizliresim.com/rf6mbke.jpg",
+      "title": "Güvenilir Süreç",
+      "desc": "Oto.fyt'ta tanımadığınız kimselerin yarattığı bilinmezlik yoktur. Aracınızı Oto.fyt'a satarsınız."
+    }
+  ]
+}

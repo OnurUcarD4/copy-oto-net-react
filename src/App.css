@@ -1,0 +1,351 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  min-height: 100vh;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: #2e5677;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease 0.2s;
+  border: 1px solid #d7e5f1;
+}
+.dropbtn2 {
+  background-color: white;
+  color: #ec8c35;
+  font-size: 16px;
+  font-weight: 500;
+  transition: ease 0.2s;
+  border: 1px solid #d7e5f1;
+}
+.dropbtn2:hover {
+  background-color: #ec8c35;
+  color: white;
+  border: 1px solid #e27e21;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  border-radius: 5%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #d6e4f0;
+}
+.link1:hover {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.link2 {
+  padding-left: 14px;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: ease 0.5s;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #2e5677;
+  transition: ease 0.2s;
+  color: white;
+  border: 1px solid #2e5677;
+}
+.navstories {
+  background-color: #e0e0e0;
+}
+.musteri {
+  color: red;
+}
+.hiza {
+  margin-left: 365px;
+}
+.borderver {
+  background: linear-gradient(#ccc, #ccc) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #ff0000, #ffb800)
+      border-box;
+  color: #313149;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  transition: ease 0.2s;
+}
+.borderver:hover {
+  width: 59px;
+  border: 2px solid transparent;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+.opak {
+  background: linear-gradient(#ccc, #ccc) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #ff0000, #ffb800)
+      border-box;
+  color: #313149;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  transition: ease 0.2s;
+}
+.hizalanvst {
+  background-color: #e0e0e0;
+  height: 70px;
+  box-shadow: -40px 5px 10px 0px #e0e0e0;
+}
+.arrow {
+  top: 35px;
+  right: -95px;
+  width: 40px;
+}
+
+.slidesize {
+  height: 600px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.image {
+  height: 530px;
+  width: 100%;
+  position: relative;
+}
+.image img {
+  vertical-align: top;
+}
+.image::after {
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.imgcontainer {
+  background-color: Black;
+}
+.zledim {
+  z-index: 1;
+  right: 300px;
+}
+.gri {
+  background-color: #eee;
+}
+.butonsat {
+  background-color: white;
+  color: #e27e21;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.butonal {
+  background-color: white;
+  color: #e27e21;
+  border-top-left-radius: 15px !important;
+  border-bottom-right-radius: 0;
+}
+.sata .ant-select-selector {
+  border-radius: 6px !important;
+}
+.satarkaplan {
+  background-color: #eb8c35;
+  color: white;
+}
+.satarkaplan:hover {
+  background-color: #000000;
+  color: white;
+}
+.aracbulamama a {
+  text-decoration: underline;
+  color: black !important;
+  z-index: 2;
+}
+.comparkaplangri {
+  background-color: #eee;
+  z-index: -1;
+}
+.paddng {
+  padding-left: 75px !important;
+  padding-right: 75px !important;
+}
+.comparkaplangri2 {
+  margin-right: 10px !important;
+}
+.right {
+  left: 60rem;
+}
+.left {
+  left: 56rem;
+}
+.slidebuttoneffect:hover {
+  background-color: #000000 !important;
+  color: white !important;
+  transition: ease 0.2s;
+}
+.slidebuttoneffect {
+  transition: ease 0.2s;
+}
+.footerdiv {
+  position: relative;
+  top: -40px;
+}
+.sellbutton:hover {
+  background-color: white;
+  font-weight: bold;
+  transition: ease 0.3s;
+  border-right: red 4px solid;
+}
+.sellbutton {
+  transition: ease 0.3s;
+}
+.buybutton:hover {
+  background-color: white;
+  font-weight: bold;
+  transition: ease 0.3s;
+  border-right: red 4px solid;
+}
+.buybutton {
+  transition: ease 0.3s;
+  padding-right: 2.4rem !important;
+}
+.backgroundgray {
+  background-color: #f2f3f2;
+}
+.sellbutton2 {
+  background-color: white !important;
+  font-weight: bold !important;
+  border-right: red 4px solid !important;
+}
+.buybutton2 {
+  background-color: white !important;
+  font-weight: bold !important;
+  border-right: red 4px solid !important;
+}
+.gridbg {
+  background-color: #f8f9f8;
+}
+.sliderwitdh {
+  width: 10px;
+}
+.objectfit2 {
+  object-fit: cover;
+  width: 600px;
+  height: 200px;
+}
+.abscard {
+  left: 380px;
+}
+.textdeco {
+  text-decoration: line-through;
+}
+.backgroundoto {
+  background-image: url("https://cdn.oto.net/assets-1636628622943/img/countly-otonet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.beyazarka {
+  background-color: white;
+  height: 140px;
+  width: 140px;
+  padding: 40px;
+  border-radius: 100%;
+}
+.beyazarka img {
+  object-fit: contain;
+}
+.heightmag {
+  height: 42rem;
+}
+.heightcard {
+  height: 30rem;
+}
+.linkler:hover {
+  border-bottom: 3px solid red;
+  transition: ease 0.2s;
+}
+.linkler {
+  border-bottom: 3px solid white;
+  transition: ease 0.2s;
+}
+.image2 {
+  height: 480px;
+  width: 100%;
+  position: relative;
+}
+.image2 img {
+  vertical-align: top;
+}
+.image2::after {
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.objecttt {
+  height: 480px;
+}
+.konumlandir {
+  right: 58rem;
+  top: 8rem;
+  font-size: 38px;
+}
+.sikcabg {
+  background-color: #f2f3f2;
+}
+.container2 {
+  position: relative;
+  width: 100%;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}

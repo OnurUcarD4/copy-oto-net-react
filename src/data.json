@@ -1,0 +1,38 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "Name": "Test"
+    },
+    {
+      "id": "2",
+      "Name": "Test"
+    },
+    {
+      "id": "3",
+      "Name": "Test"
+    }
+  ],
+  "inf": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/key-holder.png",
+      "satis": "85.000"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/car-number.png",
+      "ekspertiz": "100.000"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/user-number.png",
+      "kullanici": "9.5 Milyon"
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/assets-1636628622943/img/location-number.png",
+      "il": "71"
+    }
+  ]
+}
