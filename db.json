@@ -412,5 +412,52 @@
       "title": "Güvenilir Süreç",
       "desc": "Oto.fyt'ta tanımadığınız kimselerin yarattığı bilinmezlik yoktur. Aracınızı Oto.fyt'a satarsınız."
     }
+  ],
+  "takassikcasorulansorular": [
+    {
+      "id": 1,
+      "title": "Aracımı takas nasıl yapabilirim?",
+      "desc": "Takas yapmak istediğiniz aracınızın bilgilerini, isterseniz Takas sayfasındaki araç bilgileri kutusunu kullanarak isterseniz de Al sayfamızda yeni aracınızı belirledikten sonra Takas Yap butonuna basarak kolayca gerçekleştirebilirsiniz. Kendi aracınızı ve oto.fyt üzerinden almak istediğiniz yeni aracınızı seçtikten sonra anında ön fiyat teklifi sunulur. Ön fiyat teklifinde ,kendi aracınızın değeri, oto.fyt’ın takas desteği ve değiştireceğiniz aracın bedeli otomatik olarak hesaplanarak ödemeniz gereken fark belirtilir. Teklifi kabul etmeniz durumunda, yeni alacağınız aracın başka birine satılmaması için kaparo ücretini yatırmanız ve kendi aracınız için ücretsiz ekspertiz randevusunu oluşturmanız yeterlidir. Aracınızın ekspertiz sonrası, oto.fyt araç kriterlerine uygun olması durumunda, Takas işleminiz aynı gün içerisinde gerçekleştirilir."
+    },
+    {
+      "id": 2,
+      "title": "Takas desteğinden nasıl yararlanabilirim?",
+      "desc": "Takas desteğinden faydalanabilmeniz için kendi aracınızı oto.fyt platformu üzerinden satmanız ve yeni aracınızı oto.fyt platformu üzerinden satın almanız yeterlidir."
+    },
+    {
+      "id": 3,
+      "title": "Satacağım arabanın ekspertiz randevusunu beklerken, takas yapmak istediğim araç satılırsa ne olur?",
+      "desc": "Satacağınız aracın ekspertiz randevusunu yaptırırken, takas yapmak istediğiniz aracın bir başkasına satılmasını engellemek ve sizin adınıza rezerve edilmesi için kapora bedelini yatırmanız yeterlidir. Kapora ödemesini takip eden 24 saat boyunca beğendiğiniz araç sizin için ayrılır. Aracınızı takas yapmaktan vazgeçmeniz ya da kendi aracınızın ekspertiz sonrasında Oto.fyt aracı olarak uygun bulunmaması durumunda, kaporanız size iade edilir."
+    },
+    {
+      "id": 4,
+      "title": "Kapora ödemesi yapmadan takas işlemini yapamaz mıyım?",
+      "desc": "Kapora bedeli beğendiğiniz aracı aynı anda bir başkasına satışını gerçekleştirmemek adına alınan, araç bedeline göre 350 - 1.000 TL arasında değişen temsili bir bedeldir. Aracı almaktan vazgeçmeniz ya da herhangi bir sebeple kararınızı değiştirmeniz durumunda size iade edilir."
+    },
+    {
+      "id": 5,
+      "title": "Takas yapmaktan vazgeçtim, yine de Takas Destekteğinden faydalanabilir miyim?",
+      "desc": "Takas yapmaktan vazgeçmeniz durumunda kapora bedeli size iade edilir. Ancak Takas Desteği, sadece araç değiştirirken size sağlanan bir ek faydadır."
+    },
+    {
+      "id": 6,
+      "title": "Takas yapacağım aracımın ekspertiz randevusunu nasıl alırım?",
+      "desc": "Aracınıza Oto.fyt üzerinden ön fiyat teklifi verilen sayfada ekspertiz randevusu alabilirsiniz. Ekspertiz Randevusu Alın butonuna bastıktan sonra size yakın ekspertiz merkezimizi ve uygun tarihi seçerek rezervasyonunuzu oluşturabilirsiniz."
+    },
+    {
+      "id": 7,
+      "title": "Oto.fyt ekspertizi neyi kapsamaktadır?",
+      "desc": "Oto.fyt ekspertizi aracın kaporta değişen boya durumu, araca değer kaybı yaratabilecek araç içindeki ve dışındaki hataların tespiti, aracın anlaşılabilir mekanik problemlerinin tespiti yapılmaktadır."
+    },
+    {
+      "id": 8,
+      "title": "Aracımın takas işlemini yapmak ne kadar sürer?",
+      "desc": "Ekspertiz randevusuna geldikten sonra aracınızın kaporta ve boya ekspertizi yapılır ve sizinle fiyat teklifi anında paylaşılır. Teklifi kabul etmeniz durumunda mekanik ve motor ekspertiz sürecine geçilir. Mekanik ve motor ekspertizinden sonra aracın durumuna göre araç satın alma teklifimiz değişebilir. Nihai teklifimizi kabul ettiğiniz takdirde kendi aracınızın ve yeni satın alacağınız aracın noter satış işlemleri aynı gün içinde tamamlanır."
+    },
+    {
+      "id": 9,
+      "title": "Takas yaptığım araca kredi alabilir miyim?",
+      "desc": "Oto.fyt'tan takas yaparak almak istediğiniz araç için kendi çalıştığınız bankanıza kredi başvurusunda bulunarak, aracınıza verilen takas fiyatı ve alacağınız araç arasındaki fark için kredi kullanabilirsiniz."
+    }
   ]
 }

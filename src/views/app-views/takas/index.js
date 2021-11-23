@@ -2,10 +2,12 @@ import AracSatForm from "Components/AracSatForm";
 import React, { useEffect, useState } from "react";
 import TakasComp from "./takas-Components/TakasComp";
 import TakasNeden from "./takas-Components/TakasNeden";
+import TakasSikcaSorulan from "./takas-Components/TakasSikcaSorulan";
 
 const TakasNasilCalisir = () => {
   const [takas, setTakas] = useState([]);
   const [nedenTakas, setnedenTakas] = useState([]);
+  const [sikcaSorulan, setsikcaSorulan] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/takasnasilcalisir")
       .then((response) => response.json())
@@ -13,6 +15,9 @@ const TakasNasilCalisir = () => {
     fetch("http://localhost:3000/takasnedensatmaliyim")
       .then((response2) => response2.json())
       .then((response2) => setnedenTakas(response2));
+    fetch("http://localhost:3000/takassikcasorulansorular")
+      .then((response3) => response3.json())
+      .then((response3) => setsikcaSorulan(response3));
   }, []);
   return (
     <div>
@@ -64,6 +69,21 @@ const TakasNasilCalisir = () => {
         {nedenTakas.map((d) => {
           return <TakasNeden id={d} data2={d} />;
         })}
+      </div>
+
+      <div className="sikcabg justify-center  pt-16 w-full flex ">
+        <div className="w-2/4 h-full">
+          <div className="text-center mt-14 mb-16">
+            <span className="font-semibold text-gray-800 text-3xl">
+              Sıkça Sorulan Sorular
+            </span>
+          </div>
+          <div className="mb-24">
+            {sikcaSorulan.map((g) => {
+              return <TakasSikcaSorulan data5={g} key={g.id} />;
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
