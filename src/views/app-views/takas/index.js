@@ -1,6 +1,7 @@
 import AracSatForm from "Components/AracSatForm";
 import React, { useEffect, useState } from "react";
 import TakasComp from "./takas-Components/TakasComp";
+import TakasHikaye from "./takas-Components/TakasHikaye";
 import TakasNeden from "./takas-Components/TakasNeden";
 import TakasSikcaSorulan from "./takas-Components/TakasSikcaSorulan";
 
@@ -8,6 +9,7 @@ const TakasNasilCalisir = () => {
   const [takas, setTakas] = useState([]);
   const [nedenTakas, setnedenTakas] = useState([]);
   const [sikcaSorulan, setsikcaSorulan] = useState([]);
+  const [takasHikaye, settakasHikaye] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/takasnasilcalisir")
       .then((response) => response.json())
@@ -18,6 +20,9 @@ const TakasNasilCalisir = () => {
     fetch("http://localhost:3000/takassikcasorulansorular")
       .then((response3) => response3.json())
       .then((response3) => setsikcaSorulan(response3));
+    fetch("http://localhost:3000/hikayeler")
+      .then((response4) => response4.json())
+      .then((response4) => settakasHikaye(response4));
   }, []);
   return (
     <div>
@@ -83,6 +88,16 @@ const TakasNasilCalisir = () => {
               return <TakasSikcaSorulan data5={g} key={g.id} />;
             })}
           </div>
+        </div>
+      </div>
+      <div className="text-center mt-14 mb-16">
+        <span className="font-semibold text-3xl">Hikayeler</span>
+      </div>
+      <div className="flex justify-center">
+        <div className="grid grid-cols-3 gap-10">
+          {takasHikaye.map((e) => {
+            return <TakasHikaye key={e.id} data4={e} />;
+          })}
         </div>
       </div>
     </div>
