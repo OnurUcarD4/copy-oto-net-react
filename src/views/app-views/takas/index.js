@@ -100,6 +100,11 @@ const TakasNasilCalisir = () => {
           })}
         </div>
       </div>
+      <div className="justify-center text-center items-center mb-10">
+        <button className="border-2 p-4 pl-14 pr-14 rounded-xl hover:bg-red-600 text-base hover:text-white ease duration-200 font-semibold">
+          Tümünü Gör
+        </button>
+      </div>
     </div>
   );
 };
