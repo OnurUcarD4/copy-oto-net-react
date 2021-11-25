@@ -349,3 +349,31 @@ body {
 .container2:hover .overlay2 {
   opacity: 1;
 }
+.how-it-works {
+  background-image: url("https://cdn.oto.net/assets-1637830359275/img/how-it-work/how-it-work-cover1.jpg");
+  width: 100%;
+  height: 355px;
+  background-color: #000000;
+  position: relative;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.how-it-works-buttons {
+  background-color: #eb8c35;
+}
+.ant-tabs-nav-list .ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: bold;
+  color: black;
+  border-bottom: 4px solid red;
+}
+.ant-tabs-nav-list .ant-tabs-tab-btn:hover {
+  background-color: white;
+  font-weight: bold;
+  transition: ease 0.3s;
+  border-bottom: red 4px solid;
+}
+.ant-tabs-ink-bar {
+  background-color: transparent;
+}
