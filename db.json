@@ -459,5 +459,31 @@
       "title": "Takas yaptığım araca kredi alabilir miyim?",
       "desc": "Oto.fyt'tan takas yaparak almak istediğiniz araç için kendi çalıştığınız bankanıza kredi başvurusunda bulunarak, aracınıza verilen takas fiyatı ve alacağınız araç arasındaki fark için kredi kullanabilirsiniz."
     }
+  ],
+  "nasilsatarimresim": [
+    {
+      "id": 1,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Aracınızı Seçin</p> <span class='text-base'>Oto.fyt'taki tüm araçlar, uzmanlarca baştan sona ekspertiz kontrolünden geçer. Oto.fyt ekspertiz garantili araçlarla içiniz daima rahattır.</span></div></div>"
+    },
+    {
+      "id": 2,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Aracı rezerve etmek için kaporanızı ödeyin</p> <span class='text-base'>Seçtiğiniz aracı 24 saat boyunca rezerve ettirebilirsiniz. Vazgeçmeniz durumunda kapora ödemeniz iade edilir.</span></div></div>"
+    },
+    {
+      "id": 3,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Rezervasyonunuzu oluşturun</p> <span class='text-base'>Aracı yakından görmek isterseniz, Oto.fyt merkezlerine gelip yakından görebilir, eğer görmek istemezseniz aracın geri kalan bedelini Oto.fyt hesabına gönderebilirsiniz.</span></div></div>"
+    },
+    {
+      "id": 4,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Noter satışını yapalım</p> <span class='text-base'>Araç bedelini ödedikten sonra Oto.fyt’a vekalet verin, tüm noter satış işlemlerini Oto.fyt gerçekleştirsin.</span></div></div>"
+    },
+    {
+      "id": 5,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Ücretsiz kapınıza teslim</p> <span class='text-base'>İstanbul içindeyseniz arabanızı Oto.fyt ücretsiz olarak kapınıza getirir (İstanbul dışındaysanız nakliye ücreti karşılığında kapınıza teslim edilsin)</span></div></div>"
+    },
+    {
+      "id": 6,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>14 gün içinde iade</p> <span class='text-base'>Aracınızı kullanın, memnun kalmazsanız, 14 gün içinde aracınızı verdiğimiz koşullarda olması ve 1000 km yi aşmaması durumunda ücretsiz iade alıyoruz.</span></div></div>"
+    }
   ]
 }

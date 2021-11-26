@@ -1,5 +1,6 @@
 import React from "react";
 import { Tabs } from "antd";
+import AracAlmak from "./nasil-calisir-Components/AracAlmak";
 const { TabPane } = Tabs;
 
 const NasilCalisir = () => {
@@ -39,11 +40,14 @@ const NasilCalisir = () => {
           defaultActiveKey="1"
         >
           <TabPane
-            className="hover:text-black text-sm"
+            className="hover:text-black  "
+            style={{ maxWidth: "50vw" }}
             tab="Araç Almak İstiyorum"
             key="1"
           >
-            <div className="text-black">Content of Tab Pane 1</div>
+            <div className="text-black">
+              <AracAlmak />
+            </div>
           </TabPane>
           <TabPane
             className="hover:text-black text-sm"
