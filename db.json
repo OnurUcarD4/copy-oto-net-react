@@ -460,7 +460,7 @@
       "desc": "Oto.fyt'tan takas yaparak almak istediğiniz araç için kendi çalıştığınız bankanıza kredi başvurusunda bulunarak, aracınıza verilen takas fiyatı ve alacağınız araç arasındaki fark için kredi kullanabilirsiniz."
     }
   ],
-  "nasilsatarimresim": [
+  "nasilalirim": [
     {
       "id": 1,
       "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>Aracınızı Seçin</p> <span class='text-base'>Oto.fyt'taki tüm araçlar, uzmanlarca baştan sona ekspertiz kontrolünden geçer. Oto.fyt ekspertiz garantili araçlarla içiniz daima rahattır.</span></div></div>"
@@ -484,6 +484,54 @@
     {
       "id": 6,
       "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3lahg0k.jpg' /><div><p class='font-semibold text-3xl text-black'>14 gün içinde iade</p> <span class='text-base'>Aracınızı kullanın, memnun kalmazsanız, 14 gün içinde aracınızı verdiğimiz koşullarda olması ve 1000 km yi aşmaması durumunda ücretsiz iade alıyoruz.</span></div></div>"
+    }
+  ],
+  "nasilsatarim": [
+    {
+      "id": 1,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/a0j7oqz.png' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınızın bilgilerini girin</p> <span class='text-base'>Satmak istediğiniz aracınızın bilgilerini (marka/model/km/hasar vb) girin.</span></div></div>"
+    },
+    {
+      "id": 2,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/1ison16.png' /><div class='w-full flex-1'><p class='font-semibold text-3xl text-black'>Ücretsiz fiyat teklifi alın</p> <span class='text-base'>Aracınız için anında fiyat teklifi verelim.</span></div></div>"
+    },
+    {
+      "id": 3,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/tdpnyki.png' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Ekspertiz randevunuzu oluşturun</p> <span class='text-base'>Ücretsiz ekspertiz randevusu alın, uzmanlarımız aracınızı ayrıntılı şekilde incelesin, nihai fiyat teklifini paylaşsın.</span></div></div>"
+    },
+    {
+      "id": 4,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/h74ftkz.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınızı hemen değerinde satın</p> <span class='text-base'>Son fiyat teklifimizi kabul ederseniz, paranız noterdeyken anında hesabınıza geçsin.</span></div></div>"
+    }
+  ],
+  "nasiltakas": [
+    {
+      "id": 1,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/a0j7oqz.png' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınızın bilgilerini girin</p> <span class='text-base'>Satmak istediğiniz aracınızın bilgilerini (marka/model/km/hasar vb) girin.</span></div></div>"
+    },
+    {
+      "id": 2,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/3bnzv2s.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Takas Aracınızı seçin</p> <span class='text-base'>Almak istediğiniz yeni aracı seçtikten sonra takas olarak ekleyin.</span></div></div>"
+    },
+    {
+      "id": 3,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/xynzudb.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Ücretsiz fiyat teklifi alın</p> <span class='text-base'>Kendi aracınız için ücretsiz fiyat teklifi alın.</span></div></div>"
+    },
+    {
+      "id": 4,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/8bwiesi.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınıza özel ek takas desteği alın</p> <span class='text-base'>Aracınızı Oto.fyt üzerinden başka bir araçla takas yaptığınızda, aracınıza 2.000 TL ye kadar ek takas desteği verelim.</span></div></div>"
+    },
+    {
+      "id": 5,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/mqkx4ap.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Ekspertiz randevunuzu oluşturun</p> <span class='text-base'>Ücretsiz ekspertiz randevusu alın, uzmanlarımız aracınızı ayrıntılı şekilde incelesin, nihai fiyat teklifini paylaşsın.</span></div></div>"
+    },
+    {
+      "id": 6,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/ocjkagf.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Takas aracı rezerve etmek için kaporanızı ödeyin</p> <span class='text-base'>Beğendiğiniz aracın sizin için rezerve edilmesi için kaporanızı ödeyin. Herhangi bir sebeple takas yapmaktan vazgeçerseniz kapora iade edilir.</span></div></div>"
+    },
+    {
+      "id": 7,
+      "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/2lor4q3.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınızı hemen yenisi ile takas yapın</p> <span class='text-base'>Aracınızı satmak ve yeni araç almak için günlerce beklemeyin. Kendi aracınızı daha iyi fiyata satın, yeni aracınızı hemen anında alın.</span></div></div>"
     }
   ]
 }

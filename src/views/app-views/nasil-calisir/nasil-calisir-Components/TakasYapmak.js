@@ -2,24 +2,24 @@ import React, { useEffect, useState } from "react";
 import { Steps } from "antd";
 const { Step } = Steps;
 
-const AracAlmak = () => {
+const TakasYapmak = () => {
   const [resim, setResim] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/nasilalirim")
+    fetch("http://localhost:3000/nasiltakas")
       .then((response) => response.json())
       .then((response) => setResim(response));
   }, []);
   return (
     <div>
       <div className="mt-8">
-        <span className="text-2xl font-semibold">Araç Almak İstiyorum</span>
+        <span className="text-2xl font-semibold">Takas Yapmak İstiyorum</span>
       </div>
       <div className="mt-6">
         <span>
           {" "}
-          Aracınızı Oto.fyt'tan almak hem hızlı, hem de güvenlidir. Ekspertizden
-          geçirilmiş, sıfıra yakın garantili araçları oturduğunuz yerden bir
-          tıkla alırsınız.
+          Oto.fyt'ın avantajlarından yararlanarak hem eski aracınızın takasını
+          gerçekleştirin hem de 2.000 TL'ye kadar ekstra takas desteğinden
+          yararlanın.
         </span>
       </div>
       <div className="mt-24">
@@ -36,14 +36,10 @@ const AracAlmak = () => {
             ))}
           </Steps>
         </div>
-        <div className="text-center flex justify-center mb-8 mt-8">
-          <span className="font-thin italic">
-            * Bireysel müşteriden satın alınan araçlara verilmektedir.
-          </span>
-        </div>
       </div>
+      <div className="mb-10"></div>
     </div>
   );
 };
 
-export default AracAlmak;
+export default TakasYapmak;

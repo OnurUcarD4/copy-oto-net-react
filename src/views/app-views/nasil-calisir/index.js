@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tabs } from "antd";
 import AracAlmak from "./nasil-calisir-Components/AracAlmak";
+import AracSatmak from "./nasil-calisir-Components/AracSatmak";
+import TakasYapmak from "./nasil-calisir-Components/TakasYapmak";
 const { TabPane } = Tabs;
 
 const NasilCalisir = () => {
+  const [state, setState] = useState("1");
   return (
     <div>
       <div className="bg-white w-full h-20 pt-5 border-t-2">
@@ -19,14 +22,23 @@ const NasilCalisir = () => {
           </span>
         </div>
         <div className="justify-center flex">
-          <button className="how-it-works-buttons px-16 py-3 rounded-xl font-bold text-white mt-6">
+          <button
+            onClick={() => setState("1")}
+            className="how-it-works-buttons px-16 py-3 rounded-xl font-bold text-white mt-6"
+          >
             Araç Alırken
           </button>
 
-          <button className="e how-it-works-buttons px-16 py-3 rounded-xl font-bold text-white mt-6 ml-5">
+          <button
+            onClick={() => setState("2")}
+            className="e how-it-works-buttons px-16 py-3 rounded-xl font-bold text-white mt-6 ml-5"
+          >
             Araç Satarken
           </button>
-          <button className="how-it-works-buttons px-16 py-3  rounded-xl font-bold text-white mt-6 ml-5">
+          <button
+            onClick={() => setState("3")}
+            className="how-it-works-buttons px-16 py-3  rounded-xl font-bold text-white mt-6 ml-5"
+          >
             Takas Yaparken
           </button>
         </div>
@@ -35,35 +47,35 @@ const NasilCalisir = () => {
         <Tabs
           tabBarGutter="200px"
           size="large"
-          animated={{ inkBar: false, tabPane: false }}
+          animated={{ inkBar: true, tabPane: false }}
           className="text-black p-2"
           defaultActiveKey="1"
+          onChange={(e) => setState(e)}
+          activeKey={state}
         >
           <TabPane
-            className="hover:text-black  "
+            className="hover:text-black "
             style={{ maxWidth: "50vw" }}
             tab="Araç Almak İstiyorum"
             key="1"
           >
-            <div className="text-black">
-              <AracAlmak />
-            </div>
+            <AracAlmak />
           </TabPane>
           <TabPane
-            className="hover:text-black text-sm"
+            style={{ maxWidth: "50vw" }}
+            className="hover:text-black   "
             tab="Araç Satmak İstiyorum"
             key="2"
           >
-            <div id="aracsatarken" className="">
-              dsd
-            </div>
+            <AracSatmak />
           </TabPane>
           <TabPane
-            className="hover:text-black text-sm"
+            style={{ maxWidth: "50vw" }}
+            className="hover:text-black "
             tab="Takas Yapmak İstiyorum"
             key="3"
           >
-            Content of Tab Pane 3
+            <TakasYapmak />
           </TabPane>
         </Tabs>
       </div>
