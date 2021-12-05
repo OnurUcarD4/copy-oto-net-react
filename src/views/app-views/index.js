@@ -20,10 +20,7 @@ export const AppViews = () => {
           component={lazy(() => import(`./sat`))}
         />
         <Route path={`/al`} component={lazy(() => import(`./al`))} />
-        <Route
-          path={`/Hakkimizda`}
-          component={lazy(() => import(`./Hakkimizda`))}
-        />
+        <Route path={`/Otomag`} component={lazy(() => import(`./Otomag`))} />
         <Route
           path={`/nasil-calisir`}
           component={lazy(() => import(`./nasil-calisir`))}

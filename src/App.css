@@ -370,3 +370,105 @@ body {
 .ant-tabs-ink-bar {
   background-color: red;
 }
+.bgimage {
+  background-image: url("https://cdn.oto.net/assets-1637830359275/img/how-it-work/how-it-work-cover2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-1 {
+  background-image: url("https://cdn.oto.net/img/u/cn/79/a1/e3/otomag-7875-79a1e359-6f35-4d9f-93b7-1aa182ccfc30_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.bg-2 {
+  background-image: url("https://cdn.oto.net/img/u/cn/9c/34/a2/otomag-7874-9c34a274-77f4-4116-9d2f-d60f59835d7c_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.bg-3 {
+  background-image: url("https://cdn.oto.net/img/u/cn/2f/89/0b/otomag-7873-2f890b38-2c4b-43a8-a205-4a85aa2600b3_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.bg-4 {
+  background-image: url("https://cdn.oto.net/img/u/cn/4e/17/91/otomag-7872-4e17914c-ce37-4cac-9fcf-2e4c6fd99ac8_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.bg-5 {
+  background-image: url("https://cdn.oto.net/img/u/cn/dd/f0/48/otomag-7871-ddf04874-00a8-4858-9755-b36cec14f315_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.bg-6 {
+  background-image: url("https://cdn.oto.net/img/u/cn/8a/2d/4d/otomag-7870-8a2d4de5-6fda-4694-b994-a8a6b2095975_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position: center;
+}
+.overlay-1 {
+  background-color: #000000;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+.slick-dots {
+  position: absolute;
+  display: flex;
+  top: 450px;
+  left: 45rem;
+}
+.slick-dots li {
+  margin: 0 1px;
+}
+.slick-dots li.slick-active button:before {
+  color: white;
+}
+.slick-dots li button:before {
+  color: white;
+  font-size: 8px;
+}
+.wrapper {
+  position: relative;
+}
+.overlay-4 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+.date2 {
+  padding-top: 4 px;
+  color: #acacac;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 15px;
+  text-align: right;
+}
+.widthv {
+  width: 45rem;
+}
+.fontv {
+  color: #8a8686bd;
+  font-size: 14px;
+  line-height: 20px;
+}

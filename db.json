@@ -191,7 +191,7 @@
       "id": 1,
       "title": "Oto.Fyt Hangi Araçları Alıyor?",
       "desc": "<b>Aşağıdaki kriterlerin dışında kalan 2010 ve üzeri araçların ücretsiz ekspertiz değerlendirilmesi Oto.fyt tarafından yapılır ve uygun olması durumunda satın alma işlemi gerçekleştirilir.</b>",
-      "desc2": "Oto.Fyt kriter dışı nedenleri; <ul><li>2011 - 2020 modeller için kilometresi 175.000, 2005 - 2010 modeller için kilometresi 200.000'in üzerinde olan,</li><li>TRAMER kaydı 19.999 TL üzerinde olan,</li><li>TRAMER'inde sel/su/yıldırımdan dolayı hasarı bulunan,</li><li>Ağır hasar veya pert kaydı olan,</li><li>Tavanında boya/değişim, dolu izi olan ya da onarım gerektiren,</li><li>6 ve üzeri parça değişimi olan,</li><li>Şasi ya da podyede işlem olan,</li><li>Direklerde işlem olan,</li><li>Motor arıza ışığı yanan,</li><li>Bagaj havuzu işlemli ya da hasarlı olan,</li><li>Aracın tamamı folyo ile kaplanmış olan,</li><li>Airbag ışığı yanan veya airbagi değişmiş olan,</li><li>Modifiye edilmiş olan,</li><li>Muayene geçerlilik süresi 1 haftadan az olan,</li><li>Üzerinde herhangi bir kredi borcu olan araçlar kriter dışıdır.</li></ul>"
+      "desc2": "<ul>Oto.Fyt kriter dışı nedenleri;</ul> <ul><li>2011 - 2020 modeller için kilometresi 175.000, 2005 - 2010 modeller için kilometresi 200.000'in üzerinde olan,</li><li>TRAMER kaydı 19.999 TL üzerinde olan,</li><li>TRAMER'inde sel/su/yıldırımdan dolayı hasarı bulunan,</li><li>Ağır hasar veya pert kaydı olan,</li><li>Tavanında boya/değişim, dolu izi olan ya da onarım gerektiren,</li><li>6 ve üzeri parça değişimi olan,</li><li>Şasi ya da podyede işlem olan,</li><li>Direklerde işlem olan,</li><li>Motor arıza ışığı yanan,</li><li>Bagaj havuzu işlemli ya da hasarlı olan,</li><li>Aracın tamamı folyo ile kaplanmış olan,</li><li>Airbag ışığı yanan veya airbagi değişmiş olan,</li><li>Modifiye edilmiş olan,</li><li>Muayene geçerlilik süresi 1 haftadan az olan,</li><li>Üzerinde herhangi bir kredi borcu olan araçlar kriter dışıdır.</li></ul>"
     },
     {
       "id": 2,
@@ -532,6 +532,234 @@
     {
       "id": 7,
       "desc": " <div class='flex gap-8 justify-center'><img src='https://i.hizliresim.com/2lor4q3.jpg' /><div class='flex-1'><p class='font-semibold text-3xl text-black'>Aracınızı hemen yenisi ile takas yapın</p> <span class='text-base'>Aracınızı satmak ve yeni araç almak için günlerce beklemeyin. Kendi aracınızı daha iyi fiyata satın, yeni aracınızı hemen anında alın.</span></div></div>"
+    }
+  ],
+  "araclar": [
+    {
+      "Id": 1,
+      "Marka": "Alfa Romeo",
+      "Modeller": ["147", "156"]
+    },
+    {
+      "Id": 2,
+      "Marka": "Audi",
+      "Modeller": ["A3", "A4", "A5"]
+    },
+    {
+      "Id": 3,
+      "Marka": "BMW",
+      "Modeller": ["116i", "118i", "316i", "320d", "520d"]
+    },
+    {
+      "Id": 4,
+      "Marka": "Chevrolet",
+      "Modeller": ["CAPTIVA", "LACETTI", "SPARK", "AVEO"]
+    },
+    {
+      "Id": 5,
+      "Marka": "Citroen",
+      "Modeller": ["C1", "C2", "C3", "C4", "C5"]
+    },
+    {
+      "Id": 6,
+      "Marka": "Dacia",
+      "Modeller": ["LOGAN", "SANDERO", "DUSTER"]
+    },
+    {
+      "Id": 7,
+      "Marka": "Fiat",
+      "Modeller": ["EGEA", "LINEA", "DOBLO", "PALIO", "PUNTO"]
+    },
+    {
+      "Id": 8,
+      "Marka": "Ford",
+      "Modeller": ["FOCUS", "FIESTA", "FUSION", "MONDEO"]
+    },
+    {
+      "Id": 9,
+      "Marka": "Honda",
+      "Modeller": ["ACCORD", "CITY", "CIVIC", "CR-V"]
+    },
+    {
+      "Id": 10,
+      "Marka": "Hyundai",
+      "Modeller": ["GETZ", "SANTA", "TUCSON"]
+    },
+    {
+      "Id": 11,
+      "Marka": "Jeep",
+      "Modeller": ["COMPASS", "PATRIOT"]
+    },
+    {
+      "Id": 12,
+      "Marka": "Kia",
+      "Modeller": ["RIO", "SPORTAGE", "PICANTO", "CERATO"]
+    },
+    {
+      "Id": 13,
+      "Marka": "Mercedes",
+      "Modeller": ["C180", "E200", "GT-R"]
+    },
+    {
+      "Id": 14,
+      "Marka": "Nissan",
+      "Modeller": ["ALMERA", "MICRA", "NOTE", "QASHQAI", "X-TRAIL"]
+    },
+    {
+      "Id": 15,
+      "Marka": "OPEL",
+      "Modeller": ["ASTRA", "CORSA", "INSIGNIA", "MERIVA", "VECTRA"]
+    },
+    {
+      "Id": 16,
+      "Marka": "Renault",
+      "Modeller": ["CLIO", "KANGOO", "LAGUNA", "MEGANE", "MODUS", "SCENIC"]
+    },
+    {
+      "Id": 17,
+      "Marka": "Seat",
+      "Modeller": ["IBIZA", "LEON", "TOLEDO", "CORDOBA"]
+    },
+    {
+      "Id": 18,
+      "Marka": "Skoda",
+      "Modeller": ["FABIA", "OCTAVIA", "ROOMSTER", "SUPERB"]
+    },
+    {
+      "Id": 19,
+      "Marka": "Volkswagen",
+      "Modeller": ["GOLF", "JETTA", "PASSAT", "POLO"]
+    },
+    {
+      "Id": 20,
+      "Marka": "VOLVO",
+      "Modeller": ["XC-90", "S40", "S60", "S90"]
+    }
+  ],
+  "yillar": [
+    2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010,
+    2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000
+  ],
+  "slideritems": [
+    {
+      "id": 1,
+      "resim": "bg-1",
+      "category": "OTOMOTİV",
+      "date": "1.12.2021",
+      "title": "Beğendiğiniz Aracı Uygun Fiyata Nasıl Alırsınız?"
+    },
+    {
+      "id": 2,
+      "resim": "bg-2",
+      "category": "OTOMOTİV",
+      "date": "30.11.2021",
+      "title": "Çocuklu Aileler İçin Kullanışlı Araç Önerileri"
+    },
+    {
+      "id": 3,
+      "resim": "bg-3",
+      "category": "OTOMOTİV",
+      "date": "29.11.2021",
+      "title": "Hasar Araç Fiyatını Nasıl Etkiler?"
+    },
+    {
+      "id": 4,
+      "resim": "bg-4",
+      "category": "OTOMOTİV",
+      "date": "28.11.2021",
+      "title": "Kalabalık Aileler İçin Araç Seçimi Nasıl Olmalıdır?"
+    },
+    {
+      "id": 5,
+      "resim": "bg-5",
+      "category": "OTOMOTİV",
+      "date": "27.11.2021",
+      "title": "Noter Süreci Öncesi Dikkat Edilmesi Gerekenler"
+    },
+    {
+      "id": 6,
+      "resim": "bg-6",
+      "category": "OTOMOTİV",
+      "date": "26.11.2021",
+      "title": "Oto.fyt Araç Satışlarında Ekspertiz Kontrolü"
+    }
+  ],
+  "otomagitems": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/img/u/cn/79/a1/e3/otomag-7875-79a1e359-6f35-4d9f-93b7-1aa182ccfc30_640x360.jpg",
+      "title": "Beğendiğiniz Aracı Uygun Fiyata Nasıl Alırsınız?",
+      "desc": "Ucuz araba almanın yolları, herkesin aklındaki bir konudur. Bunun için çeşitli yöntemler mevcuttur.",
+      "date": "1.12.2021"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/img/u/cn/9c/34/a2/otomag-7874-9c34a274-77f4-4116-9d2f-d60f59835d7c_640x360.jpg",
+      "title": "Çocuklu Aileler için Kullanışlı Araç Önerileri",
+      "desc": "Aile ile seyahat etmek özel bir tecrübedir. Bu özel tecrübeyi daha da özel kılan güzel ve gü...",
+      "date": "30.11.2021"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/img/u/cn/2f/89/0b/otomag-7873-2f890b38-2c4b-43a8-a205-4a85aa2600b3_640x360.jpg",
+      "title": "Hasar Araç Fiyatını Ne Kadar Etkiler?",
+      "desc": "Hasarlı araçlar satılmak istendiğinde değerlerinde belli miktarlarda düşüşler olur. Bu değer kaybı her araç için aynı miktarda değildir.",
+      "date": "29.11.2021"
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/img/u/cn/4e/17/91/otomag-7872-4e17914c-ce37-4cac-9fcf-2e4c6fd99ac8_640x360.jpg",
+      "title": "Kalabalık Aileler için Araç Seçimi Nasıl Olmalıdır?",
+      "desc": "Geniş evler gibi arabaların da geniş ve konforlu olması kalabalık aileler için uygundur. Özellikle uzun mesafe yolculuklarda aracın genişliği ve konforuna daha çok ihtiyaç duyulur.",
+      "date": "28.11.2021"
+    },
+    {
+      "id": 5,
+      "resim": "https://cdn.oto.net/img/u/cn/dd/f0/48/otomag-7871-ddf04874-00a8-4858-9755-b36cec14f315_640x360.jpg",
+      "title": "Noter Süreci Öncesi Dikkat Edilmesi Gerekenler",
+      "desc": "Araç devir işlemlerinin en kritik aşaması noter sürecidir. Araç noter satışı nasıl yapılır sorusu, araç devir işlemini ilk kez yapacakların aklına takılan bir sorudur.",
+      "date": "27.11.2021"
+    }
+  ],
+  "populerhaberler": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/img/u/cn/ad/5d/a9/otomag-7849-ad5da9f6-11d8-4f2e-97b5-52063cad4eb8_400x400.jpg",
+      "title": "Araç Alım Satımında Noter Satış İşlemleri Nasıl Yapılır?",
+      "category": "OTOMOTİV",
+      "date": "04.09.2019"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/img/u/cn/04/9f/61/otomag-7666-049f6157-4c65-4783-868f-ed882cd0f007_400x400.jpg",
+      "category": "SEKTÖRDEN",
+      "title": "Dünyanın En İyi Araba Markaları",
+      "date": "02.08.2018"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/img/u/cn/31/94/12/otomag-7768-31941208-be80-4018-95cf-80f8b8c01fd7_400x400.jpg",
+      "category": "SSS",
+      "title": "Saatlere Göre Trafik Yoğunluğu",
+      "date": "11.11.2018"
+    }
+  ],
+  "fotogaleri": [
+    {
+      "id": 1,
+      "resim": "https://cdn.oto.net/img/u/cn/35/ed/59/otomag-7345-35ed5903-2ef3-426b-8ee2-e3aef207a3a4_200x200.jpg"
+    },
+    {
+      "id": 2,
+      "resim": "https://cdn.oto.net/img/u/cn/81/78/73/content-817873fc-eeaf-486b-b098-8bf9b72cb310_200x200.jpg"
+    },
+    {
+      "id": 3,
+      "resim": "https://cdn.oto.net/img/u/cn/62/91/22/content-629122d2-8874-4db5-b722-b13388d5ab3a_200x200.jpg"
+    },
+    {
+      "id": 4,
+      "resim": "https://cdn.oto.net/img/u/cn/ce/53/2e/content-ce532eed-1b27-4219-b53a-26a8947474b4_200x200.jpg"
     }
   ]
 }

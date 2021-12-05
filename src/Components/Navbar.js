@@ -23,8 +23,8 @@ const Navbar = () => {
           <Link className="text-black linkler" to="/nasil-calisir">
             <div className="p-6 text-base font-normal mt-2">Nasıl Çalışır</div>
           </Link>
-          <Link className="text-black linkler" to="/hakkimizda">
-            <div className="p-6 text-base font-normal mt-2">Hakkımızda</div>
+          <Link className="text-black linkler" to="/Otomag">
+            <div className="p-6 text-base font-normal mt-2">Otomag</div>
           </Link>
           <div className="text-lg ml-32 mt-1 relative inline-block text-left">
             <div class="dropdown">

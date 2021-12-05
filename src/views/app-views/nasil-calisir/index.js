@@ -1,12 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Tabs } from "antd";
 import AracAlmak from "./nasil-calisir-Components/AracAlmak";
 import AracSatmak from "./nasil-calisir-Components/AracSatmak";
 import TakasYapmak from "./nasil-calisir-Components/TakasYapmak";
+import SikcaSorulan from "./nasil-calisir-Components/SikcaSorulan";
+import { Collapse } from "antd";
+import AracSat from "Components/AracSat";
+import AracSatNasil from "./nasil-calisir-Components/AracSatNasil";
+
+const { Panel } = Collapse;
 const { TabPane } = Tabs;
 
 const NasilCalisir = () => {
   const [state, setState] = useState("1");
+  const [sikca, setSikca] = useState([]);
+  const [arac, setArac] = useState([]);
+  const [yil, setYil] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/sikcasorulansorular")
+      .then((response) => response.json())
+      .then((response) => setSikca(response));
+    fetch("http://localhost:3000/araclar")
+      .then((response2) => response2.json())
+      .then((response2) => setArac(response2));
+    fetch("http://localhost:3000/yillar")
+      .then((response3) => response3.json())
+      .then((response3) => setYil(response3));
+  }, []);
+
   return (
     <div>
       <div className="bg-white w-full h-20 pt-5 border-t-2">
@@ -78,6 +99,42 @@ const NasilCalisir = () => {
             <TakasYapmak />
           </TabPane>
         </Tabs>
+      </div>
+      <div className="sikcabg justify-center  pt-16 w-full flex">
+        <div className="w-2/4 h-full">
+          <div className="text-center mt-14 mb-16">
+            <span className="font-semibold text-gray-800 text-3xl">
+              Sıkça Sorulan Sorular
+            </span>
+          </div>
+          <div className="mb-24">
+            {sikca.map((x) => {
+              return <SikcaSorulan data={x} key={x.id} />;
+            })}
+          </div>
+        </div>
+      </div>
+      <div className="bgimage justify-center flex flex-col items-center w-full">
+        <div className="text-center pt-28">
+          <span className="text-white text-3xl">
+            Aracınızı <strong>hemen satın.</strong>
+          </span>
+          <div className="mt-4">
+            <span className="text-white">
+              Aracınızı hemen en doğru fiyata satın
+            </span>
+          </div>
+        </div>
+        <div className="bg-white w-2/5 justify-center  h-32 mt-10 mb-20">
+          <div className="">
+            {console.log("a", arac, "d2", yil)}
+            {arac.length > 0 && yil.length > 0 ? (
+              <AracSatNasil data={arac} data2={yil} />
+            ) : (
+              console.log("HATA YEDİN")
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
