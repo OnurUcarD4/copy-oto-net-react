@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-white shadow-2xl  pb-1 z-40">
+      <div className="bg-white shadow-2xl  pb-1 z-40  border-b-2">
         <div className="justify-center text-center flex">
-          <div className="mt-2">
+          <div className="mt-2 mr-10">
             <Link to="/home">
               <img src="https://i.hizliresim.com/ejqwg6o.png" />
             </Link>

@@ -472,3 +472,16 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+select#cars {
+  border: 0px;
+  outline: 0px;
+}

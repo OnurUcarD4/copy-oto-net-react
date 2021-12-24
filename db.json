@@ -538,102 +538,1216 @@
     {
       "Id": 1,
       "Marka": "Alfa Romeo",
-      "Modeller": ["147", "156"]
+      "Modeller": [
+        {
+          "Key": 10,
+          "Name": "147",
+          "Type": [
+            {
+              "TypeId": 12,
+              "Name": "1.6 TS"
+            }
+          ]
+        },
+        {
+          "Key": 13,
+          "Name": "156",
+          "Type": [
+            {
+              "TypeId": 14,
+              "Name": "2.0 JTS"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "ALFA ROMEO 147",
+          "Name": "1.6 TS",
+          "TypeId": 12,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/16/18997089/9cfb015c-b41c-4f70-a549-7641f044723e_image_for_silan_18997089_1920x1080.jpg",
+          "Year": 2013,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 220000,
+          "Price": 197240,
+          "Discounted": 187600
+        },
+        {
+          "Id": 2,
+          "Title": "ALFA ROMEO 156",
+          "Name": "2.0 JTS",
+          "TypeId": 14,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/14/18984874/20150510-3dfe-4656-a96b-fdaf57271647_image_for_silan_18984874_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 150000,
+          "Price": 170000,
+          "Discounted": 145000
+        }
+      ]
     },
     {
       "Id": 2,
       "Marka": "Audi",
-      "Modeller": ["A3", "A4", "A5"]
+      "Modeller": [
+        {
+          "Key": 15,
+          "Name": "A3",
+          "Type": [
+            {
+              "TypeId": 16,
+              "Name": "A3 Hatchback"
+            },
+            {
+              "TypeId": 17,
+              "Name": "A3 Sedan"
+            },
+            {
+              "TypeId": 18,
+              "Name": "A3 Cabrio"
+            }
+          ]
+        },
+        {
+          "Key": 19,
+          "Name": "A4",
+          "Type": [
+            {
+              "TypeId": 20,
+              "Name": "A4 Avant"
+            },
+            {
+              "TypeId": 21,
+              "Name": "A4 Cabrio"
+            },
+            {
+              "TypeId": 22,
+              "Name": "A4 Sedan"
+            }
+          ]
+        },
+        {
+          "Key": 23,
+          "Name": "A5",
+          "Type": [
+            {
+              "TypeId": 24,
+              "Name": "A5 Sportback"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "AUDI A3",
+          "Name": "HATCHBACK 1.6 ATTRACTION",
+          "TypeId": 16,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/14/18985598/c8cd7edd-503e-4b6c-9900-ae9f90579f97_image_for_silan_18985598_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 90000,
+          "Price": 280000,
+          "Discounted": 275000
+        },
+        {
+          "Id": 2,
+          "Title": "AUDI A3",
+          "Name": "SEDAN 1.6 TDI ATTRACTION",
+          "TypeId": 17,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/08/18931637/f6a193e6-890d-460c-8637-296dab66a7bb_image_for_silan_18931637_1920x1080.jpg",
+          "Year": 2016,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 110000,
+          "Price": 340000,
+          "Discounted": 335000
+        },
+        {
+          "Id": 3,
+          "Title": "AUDI A3",
+          "Name": "CABRIO 1.4TFSI AMBITION",
+          "TypeId": 18,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/08/18931637/f6a193e6-890d-460c-8637-296dab66a7bb_image_for_silan_18931637_1920x1080.jpg",
+          "Year": 2016,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 240000,
+          "Price": 310000,
+          "Discounted": 300000
+        },
+        {
+          "Id": 4,
+          "Title": "AUDI A4",
+          "Name": "AVANT 2.0 TDI",
+          "TypeId": 20,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/09/18942229/bdf9ed5c-9981-4d17-a825-fa76c24561bf_image_for_silan_18942229_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 196000,
+          "Price": 380000,
+          "Discounted": 375000
+        },
+        {
+          "Id": 5,
+          "Title": "AUDI A4",
+          "Name": "CABRIO 2.0 TDI",
+          "TypeId": 21,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/11/17/18752962/d5aede9e-18c2-4fcd-9253-6e4448cb745c_image_for_silan_18752962_1920x1080.jpg",
+          "Year": 2008,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 110000,
+          "Price": 430000,
+          "Discounted": 425000
+        },
+        {
+          "Id": 6,
+          "Title": "AUDI A4",
+          "Name": "SEDAN 2.0 TDI",
+          "TypeId": 22,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/11/20/18778532/f50034eb-c49d-4876-b486-f337b00b0a09_image_for_silan_18778532_1920x1080.jpg",
+          "Year": 2018,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 112000,
+          "Price": 725000,
+          "Discounted": 720000
+        },
+        {
+          "Id": 7,
+          "Title": "AUDI A5",
+          "Name": "SPORTBACK 2.0 TDI QUATTRO",
+          "TypeId": 24,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/03/18889337/a83847b4-116b-4324-a9b0-4c73fa461afe_image_for_silan_18889337_1920x1080.jpg",
+          "Year": 2018,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 76000,
+          "Price": 1265000,
+          "Discounted": 1250000
+        }
+      ]
     },
     {
       "Id": 3,
       "Marka": "BMW",
-      "Modeller": ["116i", "118i", "316i", "320d", "520d"]
+      "Modeller": [
+        {
+          "Key": 25,
+          "Name": "116i",
+          "Type": [
+            {
+              "TypeId": 26,
+              "Name": "ADVANTAGE"
+            }
+          ]
+        },
+        {
+          "Key": 27,
+          "Name": "118i",
+          "Type": [
+            {
+              "TypeId": 28,
+              "Name": "M PLUS"
+            }
+          ]
+        },
+        {
+          "Key": 29,
+          "Name": "320d",
+          "Type": [
+            {
+              "TypeId": 30,
+              "Name": "LUXURY"
+            }
+          ]
+        },
+        {
+          "Key": 31,
+          "Name": "520d",
+          "Type": [
+            {
+              "TypeId": 32,
+              "Name": "EXECUTIVE M SPORT"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "BMW 116i",
+          "Name": "ADVANTAGE",
+          "TypeId": 26,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19013558/d6033905-41ff-4cf5-9fb9-7c42012b1ab5_image_for_silan_19013558_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 72000,
+          "Price": 350000,
+          "Discounted": 347000
+        },
+        {
+          "Id": 2,
+          "Title": "BMW 118i",
+          "Name": "M PLUS",
+          "TypeId": 28,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/10/16/18523186/ef20a8f8-918e-4561-a06b-f836f7d3ffe2_image_for_silan_18523186_1920x1080.jpg",
+          "Year": 2013,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 110000,
+          "Price": 415000,
+          "Discounted": 410000
+        },
+        {
+          "Id": 3,
+          "Title": "BMW 320d",
+          "Name": "LUXURY PLUS",
+          "TypeId": 30,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/14/18981324/d171d39c-2aa4-444e-8997-838f3aef1f77_image_for_silan_18981324_1920x1080.jpg",
+          "Year": 2013,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 190000,
+          "Price": 527000,
+          "Discounted": 525000
+        },
+        {
+          "Id": 4,
+          "Title": "BMW 520d",
+          "Name": "EXECUTIVE M SPORT",
+          "TypeId": 32,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/16/19000445/f7718aef-91c5-4b71-895d-ca8f9451ca8f_image_for_silan_19000445_1920x1080.jpg",
+          "Year": 2011,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 370000,
+          "Price": 550000,
+          "Discounted": 542000
+        }
+      ]
     },
     {
       "Id": 4,
       "Marka": "Chevrolet",
-      "Modeller": ["CAPTIVA", "LACETTI", "SPARK", "AVEO"]
+      "Modeller": [
+        {
+          "Key": 33,
+          "Name": "CAMARO",
+          "Type": [
+            {
+              "TypeId": 34,
+              "Name": "RS"
+            },
+            {
+              "TypeId": 35,
+              "Name": "3.8"
+            }
+          ]
+        },
+        {
+          "Key": 36,
+          "Name": "CRUZE",
+          "Type": [
+            {
+              "TypeId": 37,
+              "Name": "1.4T"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "CHEVROLET CAMARO",
+          "Name": "RS",
+          "TypeId": 34,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/03/18891598/b52cb34a-a00d-4351-8d31-785281e7a814_image_for_silan_18891598_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 86000,
+          "Price": 1500000,
+          "Discounted": 1485000
+        },
+        {
+          "Id": 2,
+          "Title": "CHEVROLET CRUZE",
+          "Name": "1.4 T",
+          "TypeId": 37,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/10/16/18525803/b4918f84-5323-4af3-9b67-667d9cb45427_image_for_silan_18525803_800x600.jpg",
+          "Year": 2012,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 149000,
+          "Price": 252000,
+          "Discounted": 250000
+        },
+        {
+          "Id": 3,
+          "Title": "CHEVROLET CAMARO",
+          "Name": "3.8",
+          "TypeId": 35,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/07/18922739/22800c44-cfa8-4d5d-9900-0a5cfb6ac6e8_image_for_silan_18922739_1920x1080.jpg",
+          "Year": 2011,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 120000,
+          "Price": 970000,
+          "Discounted": 965000
+        }
+      ]
     },
     {
       "Id": 5,
       "Marka": "Citroen",
-      "Modeller": ["C1", "C2", "C3", "C4", "C5"]
+      "Modeller": [
+        {
+          "Key": 38,
+          "Name": "C1",
+          "Type": [
+            {
+              "TypeId": 39,
+              "Name": "1.0 VTi"
+            }
+          ]
+        },
+        {
+          "Key": 40,
+          "Name": "C2",
+          "Type": [
+            {
+              "TypeId": 41,
+              "Name": "1.4 HDi"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "CITROEN C1",
+          "Name": "1.0 VTi Shine",
+          "TypeId": 39,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/11/07/18676404/8ebbc28b-71a4-4f1f-aba5-882418a8b6dc_image_for_silan_18676404_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 86000,
+          "Price": 235000,
+          "Discounted": 233000
+        },
+        {
+          "Id": 2,
+          "Title": "Citroen C2",
+          "Name": "1.4 HDi SX",
+          "TypeId": 41,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/09/18937126/8958dca9-dbc8-472b-8f55-d760703cd8ee_image_for_silan_18937126_1920x1080.jpg",
+          "Year": 2006,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 251000,
+          "Price": 90000,
+          "Discounted": 89000
+        }
+      ]
     },
     {
       "Id": 6,
       "Marka": "Dacia",
-      "Modeller": ["LOGAN", "SANDERO", "DUSTER"]
+      "Modeller": [
+        {
+          "Key": 42,
+          "Name": "LOGAN",
+          "Type": [
+            {
+              "TypeId": 43,
+              "Name": "1.5 dCi MCV"
+            },
+            {
+              "TypeId": 44,
+              "Name": "1.6 MCV"
+            }
+          ]
+        },
+        {
+          "Key": 45,
+          "Name": "SANDERO",
+          "Type": [
+            {
+              "TypeId": 46,
+              "Name": "1.5 dCi"
+            }
+          ]
+        },
+        {
+          "Key": 47,
+          "Name": "DUSTER",
+          "Type": [
+            {
+              "TypeId": 48,
+              "Name": "DUSTER AMBIANCE 4X4 1.5 DCI 110HP"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "DACIA LOGAN",
+          "Name": "1.5 dCi MCV Ambiance",
+          "TypeId": 43,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/13/18975921/7d40cf4b-c47a-48d6-a3f9-2087236e1153_image_for_silan_18975921_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 180000,
+          "Price": 190000,
+          "Discounted": 185000
+        },
+        {
+          "Id": 2,
+          "Title": "DACIA LOGAN",
+          "Name": "1.5 dCi MCV Black Line",
+          "TypeId": 43,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19015485/321eca78-cfe1-4187-bff3-d663aa1fe97b_image_for_silan_19015485_1920x1080.jpg",
+          "Year": 2011,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 298000,
+          "Price": 130000,
+          "Discounted": 125000
+        },
+        {
+          "Id": 3,
+          "Title": "DACIA LOGAN",
+          "Name": "1.6 MCV AMBIANCE",
+          "TypeId": 44,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/17/19008356/e77d250e-1dd9-4877-bb3e-408b3a0ce87b_image_for_silan_19008356_1920x1080.jpg",
+          "Year": 2009,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 86000,
+          "Price": 137000,
+          "Discounted": 135000
+        },
+        {
+          "Id": 4,
+          "Title": "DACIA SANDERO",
+          "Name": "1.5 dCi Stepway",
+          "TypeId": 46,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/12/18969342/f6f6f498-7b66-4c9e-8e27-b0149adba551_image_for_silan_18969342_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 61000,
+          "Price": 250000,
+          "Discounted": 247000
+        },
+        {
+          "Id": 5,
+          "Title": "DACIA DUSTER",
+          "Name": "AMBIANCE 1.5 dCi 110HP",
+          "TypeId": 48,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/08/18928582/cce63dde-643e-4d55-a4fd-2e4e5de646ff_image_for_silan_18928582_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 61000,
+          "Price": 270000,
+          "Discounted": 265000
+        }
+      ]
     },
     {
       "Id": 7,
       "Marka": "Fiat",
-      "Modeller": ["EGEA", "LINEA", "DOBLO", "PALIO", "PUNTO"]
+      "Modeller": [
+        {
+          "Key": 49,
+          "Name": "EGEA",
+          "Type": [
+            {
+              "TypeId": 50,
+              "Name": "1.6 MULTIJET"
+            },
+            {
+              "TypeId": 51,
+              "Name": "1.3 MULTIJET"
+            }
+          ]
+        },
+        {
+          "Key": 52,
+          "Name": "LINEA",
+          "Type": [
+            {
+              "TypeId": 53,
+              "Name": "1.3 MULTIJET POP"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "FIAT EGEA",
+          "Name": "1.6 MULTIJET EASY",
+          "TypeId": 50,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/10/18949816/50122782-66cf-45b0-9bbc-1f651bdf016b_image_for_silan_18949816_1920x1080.jpg",
+          "Year": 2020,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 21000,
+          "Price": 258000,
+          "Discounted": 255000
+        },
+        {
+          "Id": 2,
+          "Title": "FIAT EGEA",
+          "Name": "1.3 MULTIJET LOUNGE",
+          "TypeId": 51,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/11/21/18785381/f1ea1f4e-9056-419d-a92a-55f06d7df3e4_image_for_silan_18785381_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 444000,
+          "Price": 295000,
+          "Discounted": 290000
+        },
+        {
+          "Id": 3,
+          "Title": "FIAT LINEA",
+          "Name": "1.3 MULTIJET POP",
+          "TypeId": 53,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19013518/8c04f23f-a457-4bf0-ab59-ba78084f6a48_image_for_silan_19013518_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 86000,
+          "Price": 195000,
+          "Discounted": 192000
+        }
+      ]
     },
     {
       "Id": 8,
       "Marka": "Ford",
-      "Modeller": ["FOCUS", "FIESTA", "FUSION", "MONDEO"]
+      "Modeller": [
+        {
+          "Key": 54,
+          "Name": "FOCUS",
+          "Type": [
+            {
+              "TypeId": 55,
+              "Name": "1.5 TDCi 125HP"
+            }
+          ]
+        },
+        {
+          "Key": 56,
+          "Name": "MONDEO",
+          "Type": [
+            {
+              "TypeId": 57,
+              "Name": "2.0 240BG"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "FORD FOCUS",
+          "Name": "1.5 TDCi",
+          "TypeId": 55,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/09/18941931/8d80b886-723d-4cf3-9f2a-469f3977c69a_image_for_silan_18941931_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 85000,
+          "Price": 275000,
+          "Discounted": 270000
+        },
+        {
+          "Id": 2,
+          "Title": "FORD MONDEO",
+          "Name": "2.0 240HP",
+          "TypeId": 57,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/17/19004669/e1190c79-5364-4943-975a-70c2af907593_image_for_silan_19004669_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 209000,
+          "Price": 415000,
+          "Discounted": 413000
+        }
+      ]
     },
     {
       "Id": 9,
       "Marka": "Honda",
-      "Modeller": ["ACCORD", "CITY", "CIVIC", "CR-V"]
+      "Modeller": [
+        {
+          "Key": 58,
+          "Name": "CIVIC",
+          "Type": [
+            {
+              "TypeId": 59,
+              "Name": "SEDAN 1.5 VTEC"
+            },
+            {
+              "TypeId": 60,
+              "Name": "SEDAN 1.6 VTEC"
+            }
+          ]
+        },
+        {
+          "Key": 61,
+          "Name": "ACCORD",
+          "Type": [
+            {
+              "TypeId": 62,
+              "Name": "2.0 EXECUTIVE "
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "HONDA CIVIC",
+          "Name": "SEDAN 1.6 VTEC",
+          "TypeId": 60,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/01/18866774/410c717b-6439-4da0-980c-a3503f842fab_image_for_silan_18866774_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 125850,
+          "Price": 155000,
+          "Discounted": 150000
+        },
+        {
+          "Id": 2,
+          "Title": "HONDA CIVIC",
+          "Name": "SEDAN 1.6 VTEC",
+          "TypeId": 60,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/10/29/18615315/576e0230-d0b1-440d-99a6-f741399b55c6_image_for_silan_18615315_1920x1080.jpg",
+          "Year": 2019,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 250000,
+          "Price": 330000,
+          "Discounted": 345000
+        },
+        {
+          "Id": 3,
+          "Title": "HONDA CIVIC",
+          "Name": "SEDAN 1.5 VTEC",
+          "TypeId": 59,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/12/18966860/ee3e9d26-1a99-44b2-abb0-b46f5e3d4075_image_for_silan_18966860_1920x1080.jpg",
+          "Year": 2021,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 10000,
+          "Price": 450000,
+          "Discounted": 445000
+        },
+        {
+          "Id": 4,
+          "Title": "HONDA ACCORD",
+          "Name": "2.0 EXECUTIVE",
+          "TypeId": 62,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/16/18998920/3d5e963b-9363-41fc-9dc1-a7cc3669e689_image_for_silan_18998920_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 270000,
+          "Price": 240000,
+          "Discounted": 235000
+        }
+      ]
     },
     {
       "Id": 10,
       "Marka": "Hyundai",
-      "Modeller": ["GETZ", "SANTA", "TUCSON"]
+      "Modeller": [
+        {
+          "Key": 63,
+          "Name": "GETZ",
+          "Type": [
+            {
+              "TypeId": 64,
+              "Name": "1.4 BOHC"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "HYUNDAI GETZ",
+          "Name": "1.4 BOHC",
+          "TypeId": 64,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19023458/e39eaf31-0692-4a62-bb5b-a24b1b76de94_image_for_silan_19023458_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 220000,
+          "Price": 130000,
+          "Discounted": 129000
+        }
+      ]
     },
     {
       "Id": 11,
       "Marka": "Jeep",
-      "Modeller": ["COMPASS", "PATRIOT"]
+      "Modeller": [
+        {
+          "Key": 65,
+          "Name": "COMPASS",
+          "Type": [
+            {
+              "TypeId": 66,
+              "Name": "1.6 LİMİTED"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "JEEP COMPASS",
+          "Name": "1.6 LIMITED",
+          "TypeId": 66,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/06/18913067/832815c5-6965-4b68-aad8-882826d911e6_image_for_silan_18913067_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 170000,
+          "Price": 360000,
+          "Discounted": 359000
+        }
+      ]
     },
     {
       "Id": 12,
       "Marka": "Kia",
-      "Modeller": ["RIO", "SPORTAGE", "PICANTO", "CERATO"]
+      "Modeller": [
+        {
+          "Key": 67,
+          "Name": "RIO",
+          "Type": [
+            {
+              "TypeId": 68,
+              "Name": "1.4 CRDi"
+            },
+            {
+              "TypeId": 69,
+              "Name": "1.2 MPI"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "KIA RIO",
+          "Name": "1.4 CRDi Sporty",
+          "TypeId": 68,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19016539/dcefa5e6-1d05-4683-8f59-e75d775929bc_image_for_silan_19016539_1920x1080.jpg",
+          "Year": 2014,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 155000,
+          "Price": 265000,
+          "Discounted": 263000
+        },
+        {
+          "Id": 2,
+          "Title": "KIA RIO",
+          "Name": "1.2 MPI Sporty",
+          "TypeId": 69,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/17/19006783/c5204c27-bd10-4a08-95e5-e8ca7a037a71_image_for_silan_19006783_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 120000,
+          "Price": 280000,
+          "Discounted": 275000
+        }
+      ]
     },
     {
       "Id": 13,
       "Marka": "Mercedes",
-      "Modeller": ["C180", "E200", "GT-R"]
+      "Modeller": [
+        {
+          "Key": 70,
+          "Name": "SLK",
+          "Type": [
+            {
+              "TypeId": 71,
+              "Name": "200 Kompressor"
+            }
+          ]
+        },
+        {
+          "Key": 72,
+          "Name": "CLS",
+          "Type": [
+            {
+              "TypeId": 73,
+              "Name": "400 D"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "MERCEDES SLK",
+          "Name": "200 KOMPRESSOR",
+          "TypeId": 71,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/10/07/18465190/50c9df3a-46b4-4432-9e20-5e308d4f7e8b_image_for_silan_18465190_1920x1080.jpg",
+          "Year": 2011,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 115000,
+          "Price": 750000,
+          "Discounted": 745000
+        },
+        {
+          "Id": 2,
+          "Title": "MERCEDES CLS",
+          "Name": "400 D",
+          "TypeId": 73,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/09/21/18360017/7f2cf955-fc68-41a1-b34b-83aad09ab9ff_image_for_silan_18360017_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 115000,
+          "Price": 1115000,
+          "Discounted": 1110000
+        }
+      ]
     },
     {
       "Id": 14,
       "Marka": "Nissan",
-      "Modeller": ["ALMERA", "MICRA", "NOTE", "QASHQAI", "X-TRAIL"]
+      "Modeller": [
+        {
+          "Key": 74,
+          "Name": "QASHQAI",
+          "Type": [
+            {
+              "TypeId": 75,
+              "Name": "1.5 dCi"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "NISSAN QASHQAI",
+          "Name": "1.5 dCi Platinum",
+          "TypeId": 75,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19024299/4c75be38-4c27-453c-b86d-4e3863405cf3_image_for_silan_19024299_1920x1080.jpg",
+          "Year": 2012,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 143000,
+          "Price": 370000,
+          "Discounted": 345000
+        }
+      ]
     },
     {
       "Id": 15,
       "Marka": "OPEL",
-      "Modeller": ["ASTRA", "CORSA", "INSIGNIA", "MERIVA", "VECTRA"]
+      "Modeller": [
+        {
+          "Key": 76,
+          "Name": "ASTRA",
+          "Type": [
+            {
+              "TypeId": 77,
+              "Name": "1.3 CDTI"
+            },
+            {
+              "TypeId": 78,
+              "Name": "1.6 CDTI"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "OPEL ASTRA",
+          "Name": "1.3CDTI EDITION",
+          "TypeId": 77,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19024326/daa19047-6035-4c47-a0dd-3ee228a68bed_image_for_silan_19024326_1920x1080.jpg",
+          "Year": 2013,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 155000,
+          "Price": 210000,
+          "Discounted": 209000
+        },
+        {
+          "Id": 2,
+          "Title": "OPEL ASTRA",
+          "Name": "1.3CDTI COSMO",
+          "TypeId": 77,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19018232/d654aa6e-e9fd-4225-bc82-75c7f734e591_image_for_silan_19018232_1920x1080.jpg",
+          "Year": 2011,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 157000,
+          "Price": 235000,
+          "Discounted": 233000
+        },
+        {
+          "Id": 3,
+          "Title": "OPEL ASTRA",
+          "Name": "1.6CDTI SPORT",
+          "TypeId": 78,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/09/18942622/ec103864-d2ff-4412-ba83-528c41164890_image_for_silan_18942622_1920x1080.jpg",
+          "Year": 2016,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 79000,
+          "Price": 385000,
+          "Discounted": 380000
+        }
+      ]
     },
     {
       "Id": 16,
       "Marka": "Renault",
-      "Modeller": ["CLIO", "KANGOO", "LAGUNA", "MEGANE", "MODUS", "SCENIC"]
+      "Modeller": [
+        {
+          "Key": 79,
+          "Name": "CLIO",
+          "Type": [
+            {
+              "TypeId": 80,
+              "Name": "1.5 dCi 75BG"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "RENAULT CLIO",
+          "Name": "1.5 dCi ICON",
+          "TypeId": 80,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19015166/ac0df2e3-d8a0-4b40-9fbd-1f8243726d3b_image_for_silan_19015166_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 145000,
+          "Price": 285000,
+          "Discounted": 275000
+        }
+      ]
     },
     {
       "Id": 17,
       "Marka": "Seat",
-      "Modeller": ["IBIZA", "LEON", "TOLEDO", "CORDOBA"]
+      "Modeller": [
+        {
+          "Key": 81,
+          "Name": "IBIZA",
+          "Type": [
+            {
+              "TypeId": 82,
+              "Name": "1.4 REFERENCE"
+            },
+            {
+              "TypeId": 83,
+              "Name": "1.2 TSI"
+            }
+          ]
+        },
+        {
+          "Key": 84,
+          "Name": "LEON",
+          "Type": [
+            {
+              "TypeId": 85,
+              "Name": "1.6 TDI"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "SEAT IBIZA",
+          "Name": "1.4 REFERENCE",
+          "TypeId": 82,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/17/19011786/a29d6bf8-2b3c-4422-a91d-0d65263f7868_image_for_silan_19011786_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 225000,
+          "Price": 165000,
+          "Discounted": 163000
+        },
+        {
+          "Id": 2,
+          "Title": "SEAT IBIZA",
+          "Name": "1.2TSI STYLE",
+          "TypeId": 83,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19020571/1ec71400-d4a3-4e99-9af9-1594c4b5967b_image_for_silan_19020571_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Manuel",
+          "Fuel": "Benzin",
+          "Km": 157000,
+          "Price": 175000,
+          "Discounted": 174000
+        },
+        {
+          "Id": 3,
+          "Title": "SEAT LEON",
+          "Name": "1.6TDI STYLE",
+          "TypeId": 85,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19024244/5ebe847d-2c2f-4710-ab25-f989aff341b9_image_for_silan_19024244_1920x1080.jpg",
+          "Year": 2018,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 107000,
+          "Price": 455000,
+          "Discounted": 454000
+        }
+      ]
     },
     {
       "Id": 18,
       "Marka": "Skoda",
-      "Modeller": ["FABIA", "OCTAVIA", "ROOMSTER", "SUPERB"]
+      "Modeller": [
+        {
+          "Key": 86,
+          "Name": "SUPERB",
+          "Type": [
+            {
+              "TypeId": 87,
+              "Name": "1.5 TSI"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "SKODA SUPERB",
+          "Name": "1.5 TSI GreenTec Prestige",
+          "TypeId": 87,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19022364/d0d0c531-cc8d-4fbe-885e-9e13fced3a06_image_for_silan_19022364_1920x1080.jpg",
+          "Year": 2021,
+          "Gear": "Otomatik",
+          "Fuel": "Benzin",
+          "Km": 0,
+          "Price": 955000,
+          "Discounted": 953000
+        }
+      ]
     },
     {
       "Id": 19,
       "Marka": "Volkswagen",
-      "Modeller": ["GOLF", "JETTA", "PASSAT", "POLO"]
+      "Modeller": [
+        {
+          "Key": 88,
+          "Name": "POLO",
+          "Type": [
+            {
+              "TypeId": 89,
+              "Name": "1.4 TDI"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "VOLKSWAGEN POLO",
+          "Name": "1.4TDI",
+          "TypeId": 89,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/18/19017626/28f26ed8-2b59-4452-a857-b1dfa8824a71_image_for_silan_19017626_1920x1080.jpg",
+          "Year": 2015,
+          "Gear": "Manuel",
+          "Fuel": "Dizel",
+          "Km": 153500,
+          "Price": 218000,
+          "Discounted": 217500
+        }
+      ]
     },
     {
       "Id": 20,
       "Marka": "VOLVO",
-      "Modeller": ["XC-90", "S40", "S60", "S90"]
+      "Modeller": [
+        {
+          "Key": 90,
+          "Name": "S90",
+          "Type": [
+            {
+              "TypeId": 91,
+              "Name": "B5 2.0"
+            }
+          ]
+        },
+        {
+          "Key": 92,
+          "Name": "XC-90",
+          "Type": [
+            {
+              "TypeId": 93,
+              "Name": "B5 2.0"
+            }
+          ]
+        }
+      ],
+      "Cars": [
+        {
+          "Id": 1,
+          "Title": "VOLVO S90",
+          "Name": "B5 2.0 INSCRIPTION",
+          "TypeId": 91,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/16/19000319/bd705cf3-5f5a-46ca-8c66-214849e6c571_image_for_silan_19000319_1920x1080.jpg",
+          "Year": 2017,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 13000,
+          "Price": 1570000,
+          "Discounted": 1540000
+        },
+        {
+          "Id": 2,
+          "Title": "VOLVO XC-90",
+          "Name": "B5 2.0 INSCRIPTION",
+          "TypeId": 93,
+          "Image": "https://arbstorage.mncdn.com/ilanfotograflari/2021/12/19/19020705/9efc8bc8-0e0b-4b19-a16c-b8f1404e30d7_image_for_silan_19020705_1920x1080.jpg",
+          "Year": 2021,
+          "Gear": "Otomatik",
+          "Fuel": "Dizel",
+          "Km": 0,
+          "Price": 2875000,
+          "Discounted": 2870000
+        }
+      ]
     }
   ],
   "yillar": [
