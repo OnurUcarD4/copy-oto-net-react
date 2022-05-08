@@ -2,6 +2,7 @@
   "name": "otofiyat",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://onurucard4.github.io",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@react-navigation/bottom-tabs": "^6.0.9",
@@ -29,7 +30,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
