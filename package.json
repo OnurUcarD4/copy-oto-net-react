@@ -2,7 +2,7 @@
   "name": "otofiyat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onurucard4.github.io",
+  "homepage": "https://onurucard4.github.io/copy-oto-net-react",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@react-navigation/bottom-tabs": "^6.0.9",
